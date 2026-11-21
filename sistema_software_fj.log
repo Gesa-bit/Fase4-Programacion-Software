@@ -1,0 +1,18 @@
+2026-11-21 21:49:45 | INFO | Inicio del sistema y configuración de logs.
+2026-11-21 21:49:45 | INFO | Cliente registrado: C01 - Laura Martínez
+2026-11-21 21:49:45 | INFO | Cliente registrado: C02 - Carlos Gómez
+2026-11-21 21:49:45 | ERROR | Fallo en registro de cliente (C03): El correo 'correo_sin_arroba' no es válido.
+2026-11-21 21:49:45 | ERROR | Fallo en registro de cliente (C04): El documento debe ser numérico y tener mínimo 6 dígitos.
+2026-11-21 21:49:45 | INFO | Servicio ReservaSala creado: S01 - Sala Innovación
+2026-11-21 21:49:45 | INFO | Servicio AlquilerEquipo creado: S02 - Portátil Workstation
+2026-11-21 21:49:45 | INFO | Servicio AsesoriaEspecializada creado: S03 - Arquitectura Cloud
+2026-11-21 21:49:45 | ERROR | Fallo en creación de servicio: La tarifa base de la sala debe ser mayor a 0.
+2026-11-21 21:49:45 | INFO | Reserva R01 CONFIRMADA | Cliente: Laura Martínez | Total: $278460.0
+2026-11-21 21:49:45 | INFO | Reserva R02 CONFIRMADA | Cliente: Carlos Gómez | Total: $434000.0
+2026-11-21 21:49:45 | INFO | Reserva R02 PROCESADA exitosamente.
+2026-11-21 21:49:45 | ERROR | Error al confirmar reserva R03: El servicio 'Arquitectura Cloud' no está disponible.
+2026-11-21 21:49:45 | ERROR | Fallo en reserva R03: El servicio 'Arquitectura Cloud' no está disponible.
+2026-11-21 21:49:45 | ERROR | Error de cálculo en reserva R04: El descuento debe estar entre 0% (0.0) y 50% (0.5).
+2026-11-21 21:49:45 | ERROR | Fallo en reserva R04: Fallo al confirmar la reserva R04 por error de cálculo. (Causa original: El descuento debe estar entre 0% (0.0) y 50% (0.5).)
+2026-11-21 21:49:45 | INFO | Reserva R01 CANCELADA. Motivo: Cambio de agenda del cliente
+2026-11-21 21:49:45 | INFO | Cierre de proceso de cancelación para la reserva R01 (Estado actual: CANCELADA).
